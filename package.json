@@ -4,6 +4,8 @@
   "description": "Setup for node and typescript",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/holomdev/setup-typescript#readme",
   "devDependencies": {
+    "nodemon": "^2.0.13",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   }
