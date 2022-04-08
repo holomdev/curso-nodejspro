@@ -1,7 +1,6 @@
 import { app } from './app'
-import { config } from 'dotenv'
+import 'dotenv/config'
 
-config()
 const port = process.env.PORT || 8888
 
 // Start server
